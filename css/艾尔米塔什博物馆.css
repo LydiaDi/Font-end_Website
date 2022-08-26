@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style-type: none;
+}
+
+
+#top{
+	height: 120px;
+	width: 100%;
+	background-color: black;
+}
+#top img{
+	margin: 12px 0px 0 50px;
+}
+#intro{
+	height: 70px;
+	width: 1000px;
+	color:  white;
+	float:right;
+	margin: 40px 0px 0px 0px;
+	font-size: 25px;
+}
+#intro li{
+	width: 150px;
+	float: left;
+}
+#intro ul li a:hover{
+	font-size: 30px;	
+	transition:all 0.4s ease;
+	color: brown;
+}
+#intro ul li a{
+	color: white;
+}
+#intro .line{
+    width: 0px;
+    height: 30px;
+    border: 1px solid white;
+    margin: 4px 40px 0 10px;
+}
+
+
+#header{
+	height: 610px;
+	width: 1500px;
+	margin: 10px;float: left;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	transition:2s;
+	position: relative;
+}
+#header:hover{
+	-webkit-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	transform:rotateY(180deg);
+}
+#front{
+	z-index: 100;
+}
+#front img,#back img{
+	height: 600px;
+	width: 1500px;
+}
+#front,#back{
+	position: absolute;
+}
+/*#back{
+	-webkit-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+	background-color: rgb(166,58,82);
+}*/
+
+#first_left,#second_right,#third_left{
+	height: 380px;
+	width: 730px;
+	margin:10px 10px;
+	float: left;
+}
+#first_left{
+	background-color: rgb(16,148,111);
+}
+#second_right{
+    background-color: rgba(225,106,40);
+}
+#third_left{
+    background-color: rgb(8,125,179);
+}
+#first_left1 p,#second_right1 p,#third_left1 p{
+	font-weight:500;
+	text-align: left;
+	font-size:50px;
+	color: white;
+	float: left;
+	margin: 15px 70px 10px 20px;
+}
+#first_left2 ,#second_right2 ,#third_left2 {
+	height: 280px;
+	width: 680px;
+	margin-top: 45px;
+	clear: both;
+	margin: 0px 30px;
+}
+#first_left2 p,#second_right2 p,#third_left2 p {
+	color: white;
+    text-indent: 2em;
+    font-size: 15px;
+}
+#first_right img,#second_left img ,#third_right img{
+	height: 380px;
+	width: 730px;
+	margin:10px 10px;
+	float: left;
+}
